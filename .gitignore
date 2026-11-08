@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local settings
+.env
+.streamlit/secrets.toml
+
+# Generated model artifacts and reports
+models/*.joblib
+models/*.pkl
+models/metrics.json
+
+# Raw datasets (check dataset redistribution terms before committing)
+dataset/*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
